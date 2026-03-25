@@ -1,0 +1,18 @@
+{
+  "wifi": {
+    "ssid": "",
+    "password": ""
+  },
+  "mqtt": {
+    "enabled": true,
+    "broker": "192.168.1.100",
+    "port": 1883,
+    "client_id": "stinol_giga_01",
+    "username": "ha",
+    "password": "ha",
+    "topic_prefix": "home/fridge"
+  },
+  "temp_target": -18,
+  "hysteresis": 1,
+  "led_brightness": 50
+}
